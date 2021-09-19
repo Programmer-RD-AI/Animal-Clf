@@ -1,0 +1,40 @@
+2021-09-19 19:43:48,408 INFO    MainThread:531816 [internal.py:wandb_internal():89] W&B internal server running at pid: 531816, started at: 2021-09-19 19:43:48.407889
+2021-09-19 19:43:48,409 DEBUG   HandlerThread:531816 [handler.py:handle_request():126] handle_request: check_version
+2021-09-19 19:43:48,410 INFO    WriterThread:531816 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/run-91ar3pfl.wandb
+2021-09-19 19:43:48,411 DEBUG   SenderThread:531816 [sender.py:send():182] send: header
+2021-09-19 19:43:48,412 DEBUG   SenderThread:531816 [sender.py:send_request():196] send_request: check_version
+2021-09-19 19:43:49,295 DEBUG   SenderThread:531816 [sender.py:send():182] send: run
+2021-09-19 19:43:49,299 DEBUG   SenderThread:531816 [git.py:repo():33] git repository is invalid
+2021-09-19 19:43:49,985 INFO    SenderThread:531816 [dir_watcher.py:__init__():169] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files
+2021-09-19 19:43:49,986 INFO    SenderThread:531816 [sender.py:_start_run_threads():743] run started: 91ar3pfl with start time 1632060827
+2021-09-19 19:43:49,986 DEBUG   SenderThread:531816 [sender.py:send():182] send: summary
+2021-09-19 19:43:49,986 INFO    SenderThread:531816 [sender.py:_save_file():873] saving file wandb-summary.json with policy end
+2021-09-19 19:43:49,987 DEBUG   HandlerThread:531816 [handler.py:handle_request():126] handle_request: run_start
+2021-09-19 19:43:49,992 DEBUG   HandlerThread:531816 [meta.py:__init__():40] meta init
+2021-09-19 19:43:49,992 DEBUG   HandlerThread:531816 [meta.py:__init__():54] meta init done
+2021-09-19 19:43:49,993 DEBUG   HandlerThread:531816 [meta.py:probe():211] probe
+2021-09-19 19:43:49,999 DEBUG   HandlerThread:531816 [git.py:repo():33] git repository is invalid
+2021-09-19 19:43:49,999 DEBUG   HandlerThread:531816 [meta.py:_save_code():90] save code
+2021-09-19 19:43:49,999 WARNING HandlerThread:531816 [meta.py:_save_code():92] unable to save code -- program entry not found
+2021-09-19 19:43:49,999 DEBUG   HandlerThread:531816 [meta.py:_save_pip():58] save pip
+2021-09-19 19:43:49,999 DEBUG   HandlerThread:531816 [meta.py:_save_pip():72] save pip done
+2021-09-19 19:43:50,000 DEBUG   HandlerThread:531816 [meta.py:_save_conda():79] save conda
+2021-09-19 19:43:50,988 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/conda-environment.yaml
+2021-09-19 19:43:50,988 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/requirements.txt
+2021-09-19 19:43:50,989 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/wandb-summary.json
+2021-09-19 19:43:55,992 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/output.log
+2021-09-19 19:43:57,377 DEBUG   HandlerThread:531816 [meta.py:_save_conda():87] save conda done
+2021-09-19 19:43:57,378 DEBUG   HandlerThread:531816 [meta.py:probe():249] probe done
+2021-09-19 19:43:57,404 DEBUG   HandlerThread:531816 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-19 19:43:57,405 DEBUG   SenderThread:531816 [sender.py:send_request():196] send_request: stop_status
+2021-09-19 19:43:57,788 DEBUG   SenderThread:531816 [sender.py:send():182] send: files
+2021-09-19 19:43:57,788 INFO    SenderThread:531816 [sender.py:_save_file():873] saving file wandb-metadata.json with policy now
+2021-09-19 19:43:57,993 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/conda-environment.yaml
+2021-09-19 19:43:57,993 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/output.log
+2021-09-19 19:43:57,993 INFO    Thread-8  :531816 [dir_watcher.py:_on_file_created():217] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Animal-Clf/wandb/run-20210919_194328-91ar3pfl/files/wandb-metadata.json
+2021-09-19 19:43:58,745 INFO    Thread-11 :531816 [upload_job.py:push():137] Uploaded file /tmp/tmpkoosmooswandb/si1m96wy-wandb-metadata.json
+2021-09-19 19:44:12,789 DEBUG   HandlerThread:531816 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-19 19:44:12,789 DEBUG   SenderThread:531816 [sender.py:send_request():196] send_request: stop_status
+2021-09-19 19:44:18,257 DEBUG   SenderThread:531816 [sender.py:send():182] send: stats
+2021-09-19 19:44:28,212 DEBUG   HandlerThread:531816 [handler.py:handle_request():126] handle_request: stop_status
+2021-09-19 19:44:28,213 DEBUG   SenderThread:531816 [sender.py:send_request():196] send_request: stop_status
